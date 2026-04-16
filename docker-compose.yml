@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:16
+    container_name: tp_postgres
+    environment:
+      POSTGRES_DB: tp_langchain
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5433:5432"
