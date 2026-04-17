@@ -40,8 +40,10 @@ pip install -r requirements.txt
 
 Maintenant, nous allons configurer les variables d'environnement :
 ```bash
-touch .env
+cp .env.example .env
 ```
+
+Ouvre le `.env` et remplis tes clés API
 
 **Voici un exemple d'un fichier .env :**
 ```bash
